@@ -3,16 +3,16 @@ print('Task 1: ')
 
 x = 7 ** 4
 print(x)
-
 print('-------------------------------')
+
 # 2: Split the string
 print('Task 2: ')
 
 s = "Hi, there Sam!"
 print(s.split())
 print(s.split(','))
-
 print('-------------------------------')
+
 # 3 grab value from nested dictionary:
 print('Task 3: ')
 
@@ -20,23 +20,23 @@ d = {'k1': [1, 2, 3, {'tricky': ['oh', 'man', 'inception', {'target': [1, 2, 3, 
 print(d.keys())
 # Only one key
 print(d['k1'][3]['tricky'][3]['target'][3])
-
 print('-------------------------------')
+
 # 4 format
 print('Task 4: ')
 
 planet = "Earth"
 diameter = 12742
 print('The diameter of {} is {}'.format(planet, diameter))
-
 print('-------------------------------')
+
 # 5 indexing
 print('Task 5: ')
 
 lst = [1, 2, [3, 4], [5, [100, 200, ['hello']], 23, 11], 1, 7]
 print(lst[3][1][2][0])
-
 print('-------------------------------')
+
 # 6 create functuin
 print('Task 6: ')
 
@@ -46,8 +46,8 @@ def domainGet(email):
 
 
 print(domainGet('hei@gmail.com'))
-
 print('-------------------------------')
+
 # 7 Count word
 print('Task 7: ')
 
@@ -69,7 +69,6 @@ print('Task 8: ')
 seq = ['soup', 'dog', 'salad', 'cat', 'great']
 my_list = list(filter(lambda word: word[0] == 's', seq))
 print(my_list)
-
 print('--------------------------')
 
 # 9 Final problem:
